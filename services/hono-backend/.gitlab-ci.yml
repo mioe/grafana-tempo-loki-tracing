@@ -1,0 +1,4 @@
+include:
+  - project: devops/charts
+    ref: main
+    file: ci/billing/$CI_PROJECT_NAME.yml

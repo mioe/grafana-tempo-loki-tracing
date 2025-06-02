@@ -1,0 +1,1 @@
+ALTER TABLE "company_rate" ADD CONSTRAINT "uq_company_rate_company_id_rate_id" UNIQUE("company_id","rate_id");

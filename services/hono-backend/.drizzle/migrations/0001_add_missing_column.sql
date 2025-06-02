@@ -1,0 +1,1 @@
+ALTER TABLE "rate_feature" ADD COLUMN "name" varchar(255) NOT NULL;

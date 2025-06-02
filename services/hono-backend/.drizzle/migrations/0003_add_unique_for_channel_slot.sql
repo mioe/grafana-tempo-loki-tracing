@@ -1,0 +1,1 @@
+ALTER TABLE "company_channel_slot" ADD CONSTRAINT "uq_cc_slot_company_id_cc_id" UNIQUE("company_id","company_channel_id");
